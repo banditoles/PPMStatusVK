@@ -13,7 +13,7 @@ SCRIPT_URL = "https://api.vk.com/method/status.set?access_token={}&v={}&text={{}
 DATE = '2021-1-1 00:00:00';
 
 song_text = '''
-вышел заяц
+вышел заяц на крыльцо
 почесать свое яйцо
 раз
 два
