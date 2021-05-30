@@ -49,6 +49,10 @@ class Song:
 song = Song(song_text)
 
 
+def get_2020_ppm():
+    return '{:.1f}'.format(1000 / (366 * 86400) * (time.time() - datetime.datetime.strptime(DATE, '%Y-%m-%d %H:%M:%S').timestamp()));
+
+
 def status_set(text):
     response = requests.Session().post(SCRIPT_URL
                                        .format(ACCESS_TOKEN, API_VERSION)
